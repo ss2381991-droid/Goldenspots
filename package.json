@@ -1,0 +1,11 @@
+{
+  "name": "goldenspots",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Find the best sunrise and sunset spots in any city, and the day the sky is most likely to deliver.",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test tests/sun.test.js"
+  }
+}
